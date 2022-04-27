@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Stavanger
-{
-    public interface IShortcutOperator
+{[ServiceDefinitionMarker]
+    public interface IShortcutOperator:IServiceDefinition
     {
         string GetShortcutTargetPath(string shortcutFilePath);
 
